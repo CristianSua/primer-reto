@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    gap: 10px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 6em;
+    background-size: 100% 100%;
+    background-image: url("/Imag/header.JPG");
+}
+.brr{
+    border: 2px solid red;
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.fond{
+    border: 2px solid red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    align-items: center;
+    border-right: white 2px solid;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 60%;
+    background-color:antiquewhite;
+    border-radius: 15px;
+
+}
+.cuidados{
+    display: flex;
+
+}
+
+.dos{
+    display: flex;
+    height: 35em;
+}
+form{
+    border: 1px solid;
+    width: 70%;
+    height: 30em;
+    background-color: darkcyan;
+    border-radius: 20px;
+
+}
+.soli{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.op{
+    display: flex;
+    flex-direction: column;
+}
+.abc{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.perro{
+    height: 80px;
+    width: 120px;
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+}
+pre{
+    text-align: center;
+}
